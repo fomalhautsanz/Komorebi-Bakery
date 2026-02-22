@@ -3,6 +3,7 @@
 * {
 font-family: 'Quicksand', sans-serif;
 color: #F7F8F0;
+box-sizing: border-box;
 }
 
 body {
@@ -278,7 +279,6 @@ background-color: #A67B5B;
 color: #F7F8F0;
 }
 
-/* Hide checkbox */
 #menu-toggle {
 display: none;
 }
@@ -307,6 +307,12 @@ gap: 20px;
 width: 100%;
 background-color: #6F4E37;
 padding: 20px 0;
+}
+
+.hero-section {
+padding-right: 20px;
+padding-top: 60px;
+height: auto;
 }
 
 .logo-container {

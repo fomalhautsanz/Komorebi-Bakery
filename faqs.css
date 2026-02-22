@@ -3,6 +3,7 @@
 * {
 font-family: 'Quicksand', sans-serif;
 color: #F7F8F0;
+box-sizing: border-box;
 }
 
 body {
@@ -264,6 +265,16 @@ gap: 20px;
 width: 100%;
 background-color: #6F4E37;
 padding: 20px 0;
+}
+
+.content-title {
+    font-size: 35px;
+}
+
+.hero-section {
+padding-right: 20px;
+padding-top: 60px;
+height: auto;
 }
 
 .hamburger {
