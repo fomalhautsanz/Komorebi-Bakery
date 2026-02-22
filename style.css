@@ -290,7 +290,7 @@ cursor: pointer;
 color: #F7F8F0;
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
 
 header {
 flex-direction: column;
