@@ -137,7 +137,6 @@ margin-top: 30px;
 
 .product-info {
 width: 200px;
-height: 350px;
 text-align: left;
 border: solid #6F4E37 2px;
 border-radius: 15px;
@@ -145,12 +144,16 @@ padding: 20px;
 
 display: flex;
 flex-direction: column;
-
 transition: transform 0.3s ease;
 }
 
 .product-info:hover {
 transform: translateY(-5px);
+}
+
+
+.product-info button {
+margin-top: auto;
 }
 
 .product-txt {
@@ -166,10 +169,8 @@ margin-bottom: 0;
 
 .product-img {
 width: 100%;
-max-width: 250px;
-max-height: 200px;
-display: block;
-margin: 0 auto;
+max-height: 180px;
+object-fit: cover; 
 }
 
 footer {
@@ -293,7 +294,7 @@ gap: 15px;
 }
 
 .product-info {
-width: calc(50%-15px);
+width: calc(50% - 15px);
 height: auto;
 }
 
