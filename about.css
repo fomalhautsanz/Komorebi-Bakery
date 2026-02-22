@@ -322,6 +322,10 @@ background-color: #6F4E37;
 padding: 20px 0;
 }
 
+.content-title {
+font-size: 35px;
+}
+
 #menu-toggle:checked ~ nav {
 display: flex;
 }
